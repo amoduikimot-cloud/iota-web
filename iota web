@@ -1,0 +1,11 @@
+# Create a project folder
+mkdir iota-web-hub
+cd iota-web-hub
+
+# Copy your HTML file into this folder, then:
+git init
+git add .
+git commit -m "Initial commit - Iota Web Hub landing page"
+git branch -M main
+git remote add origin https://github.com/YOUR_USERNAME/iota-web-hub.git
+git push -u origin main
